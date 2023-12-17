@@ -58,6 +58,11 @@ address {
    font-style: normal;
 } 
 
+.address__link--effect:focus,
+.address__link--effect:hover {
+   color:#404bbf;
+}
+
 .address__link, .benefits__text, .team__text, .portfolio__text {
    color: #434455;
    font-size: 16px;
