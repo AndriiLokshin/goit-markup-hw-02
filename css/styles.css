@@ -1,5 +1,6 @@
 body {font-family:"Roboto", sans-serif; 
-   color: #2E2F42;
+   background-color: #FFFFFF;
+   color: #434455;
 }
 h2 {
    text-align: center;
@@ -26,7 +27,8 @@ p {
 
 .logo {
    color: #4D5AE5;
-   font-family: "Raleway";
+   font-family: "Raleway", sans-serif;
+   font-weight: 700;
    font-size: 18px;
    line-height: 1.17;
    letter-spacing: 0.54px;
@@ -38,11 +40,21 @@ p {
 }
 
 .header__link {
+   color: #2E2F42;
    font-size: 16px;
    font-weight: 500;
    line-height: 1.5;
    letter-spacing: 0.32px;
 }
+
+.header__link--effect:focus,
+.header__link--effect:hover {
+   color: #404bbf;
+}
+
+address {
+   font-style: normal;
+} 
 
 .address__link, .benefits__text, .team__text, .portfolio__text {
    color: #434455;
@@ -66,25 +78,25 @@ p {
 
 .hero__button {
    background-color: #4D5AE5;
-}
-
-.button__text {
    color: #FFF;
    font-size: 16px;
    font-weight: 500;
    line-height: 1.5;
    letter-spacing: 0.64px;
+   cursor: pointer;
 }
 
-.tittle {
-   font-size: 20px;
-   font-weight: 500;
-   line-height: 1.2;
-   letter-spacing: 0.4px;
+.hero__button--effect:focus,
+.hero__button--effect:hover {
+   background-color: #404BBF;
 }
 
 .team {
    background-color: #F4F4FD;
+}
+
+.team__item {
+   background-color: #FFFFFF;
 }
 
 .footer {
